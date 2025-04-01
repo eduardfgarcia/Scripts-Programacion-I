@@ -228,6 +228,7 @@ class ControladorSecciones:
 
 #Control de Flujo
 root = tk.Tk()
+root.title("Menu de usuario")
 root.geometry("600x600")
 controlador = ControladorSecciones(root)
 
