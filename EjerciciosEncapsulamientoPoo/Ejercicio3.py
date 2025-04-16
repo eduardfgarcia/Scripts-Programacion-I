@@ -1,6 +1,5 @@
 
-
-# Crear una cuenta y validar el acceso con diferentes combinaciones -
+# Ejercicio 3: Crear una cuenta y validar el acceso con diferentes combinaciones -
 # Encapsular el usuario y la contraseña con validación mediante métodos públicos.
 
 
