@@ -1,0 +1,58 @@
+INSTRUCCIONES DEL JUEGO DE LA NAVE
+
+Autores: GARCIA NIÑO EDUARD FERNANDO 
+         GOMEZ VEGA EDDY SEBASTIAN
+
+CADI: PROGRAMACION I  | 204
+
+UNIVERSIDAD DE CUNDINAMARCA | SECCIONAL GIRARDOT
+
+Objetivo del proyecto: Desarrollar un programa el cual se aplique concepto de POO (Programación orientado a objetos)
+Proyecto desarollado: Un Juego dinamico de Nave.
+
+
+1.  REQUISITOS DEL SISTEMA:
+    * Python 3.x (Version mas reciente)
+    * Pygame (se instalará automáticamente con las instrucciones)
+
+
+2.  ESTRUCTURA DEL PROYECTO:
+    Asegúrate de que todos los archivos del juego (.py y la carpeta 'assets' con sus contenidos) estén en el mismo directorio.
+
+    * `ventanaPrincipal.py`: Es el archivo principal que inicia el menú del juego.
+    * `juegoNave.py`: Contiene la lógica principal del juego, incluyendo la nave del jugador, los asteroides, los láseres y la gestión de la partida.
+    * `creditos.py`: Módulo que gestiona la visualización de la pantalla de créditos, mostrando información sobre los desarrolladores y herramientas.
+    * `estadisticas.py`: Maneja la carga, guardado y visualización de las estadísticas del jugador.
+    * `assets/`: Carpeta que debe contener todas las imágenes, fuentes y sonidos utilizados en el juego (por ejemplo, `player.png`, `meteorGrey_tiny1.png`, `Game Of Squids.ttf`, `laser5.ogg`, etc.). Ten en cuenta que las rutas absolutas dentro del código (`r"C:\Users\..."`) deberán ser ajustadas a rutas relativas o a la ubicación de tus assets en tu sistema si no estás usando la estructura de carpetas especificada en el código original.
+
+
+3.  CÓMO JUGAR:
+
+    * **Menú Principal:**
+        * "JUGAR": Inicia una nueva partida del juego de la nave.
+        * "ESTADISTICAS": Muestra las puntuaciones más altas guardadas. Puedes borrar todas las estadísticas desde esta sección.
+        * "CRÉDITOS": Muestra información sobre los creadores y las herramientas utilizadas.
+        * "SALIR": Cierra el juego.
+
+    * **Durante el Juego:**
+        * **Movimiento de la Nave:** Usa las teclas `WASD` o las `Flechas` del teclado para mover tu nave espacial.
+        * **Disparo:** Presiona la `Barra Espaciadora` o haz `Clic Izquierdo` con el ratón para disparar láseres.
+        * **Objetivo:** Destruye los asteroides que aparecen para ganar puntos.
+        * **Salud:** Tu nave tiene una barra de HP (corazones). Cada colisión con un asteroide reduce tu salud.
+        * **Fin del Juego:** La partida termina cuando tu nave se queda sin corazones.
+        * **Puntuación:** Tu puntuación se actualizará en la esquina superior izquierda de la pantalla.
+        * **Regresar al Menú:** Puedes volver al menú principal en cualquier momento haciendo clic en el botón "Regresar" ubicado en la esquina superior derecha de la pantalla.
+
+    * **Pantalla de Fin de Juego (Game Over):**
+        * Después de que tu nave sea destruida, se te pedirá que ingreses tu nombre para guardar tu puntuación en las estadísticas.
+        * Tendrás opciones para "Reintentar" (iniciar una nueva partida) o "Volver al Menú".
+
+    * **Estadísticas:**
+        * Las puntuaciones se guardan en un archivo `estadisticas.json`.
+        * En la sección de estadísticas, puedes ver tu nombre y puntaje, ordenados de mayor a menor.
+        * También hay un botón para "Borrar Todos los Datos".
+
+
+
+
+¡Muchas Gracias!
