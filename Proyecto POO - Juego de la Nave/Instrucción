@@ -1,0 +1,73 @@
+INSTRUCCIONES DEL JUEGO DE LA NAVE
+
+Autores: GARCIA NIÑO EDUARD FERNANDO 
+         GOMEZ VEGA EDDY SEBASTIAN
+
+CADI: PROGRAMACION I  | 204
+
+UNIVERSIDAD DE CUNDINAMARCA | SECCIONAL GIRARDOT
+
+Objetivo del proyecto: Desarrollar un programa el cual se aplique concepto de POO (Programación orientado a objetos)
+Proyecto desarollado: Un Juego dinamico de Nave.
+
+Este proyecto contiene un juego programado con Python y Pygame. Está configurado para funcionar con rutas absolutas específicas del sistema original.
+
+🧠 Requisitos Previos
+
+Tener Python 3.8 o superior instalado.
+
+Tener instalado pip (viene con Python).
+
+Tener el mismo árbol de carpetas y rutas usadas originalmente en el proyecto.
+
+📁 Estructura de Carpetas Esperada
+El juego usa rutas absolutas como:
+
+mathematica
+Copiar
+Editar
+C:\Users\eduar\Desktop\U Cundinamarca\DIrectorio PRORAMACION - UDEC\Programacion  I -204 - Segundo Semestre\game\Proyecto POO - Juego de la Nave
+Tu carpeta del juego debe estar ubicada exactamente en esa ruta.
+
+Ejemplo completo:
+
+
+C:\Users\eduar\Desktop\U Cundinamarca\DIrectorio PRORAMACION - UDEC\Programacion  I -204 - Segundo Semestre\game\Proyecto POO - Juego de la Nave
+│
+├── assets\
+│   ├── player.png
+│   ├── background.png
+│   ├── laser5.ogg
+│   ├── ...
+│
+├── creditos.py
+├── estadisticas.py
+├── juegoNave.py
+└── ventanaPrincipal.py
+
+🧩 Instalación de Dependencias
+Abre una terminal o consola y ejecuta:
+
+bash
+Copiar
+Editar
+pip install pygame 
+▶️ Cómo Ejecutar el Juego
+Desde la terminal, navega hasta la carpeta del juego:
+
+bash
+Copiar
+Editar
+cd "C:\Users\eduar\Desktop\U Cundinamarca\DIrectorio PRORAMACION - UDEC\Programacion  I -204 - Segundo Semestre\game\Proyecto POO - Juego de la Nave"
+Y ejecuta el menú principal:
+
+bash
+Copiar
+Editar
+python ventanaPrincipal.py
+
+❗ Nota
+Si mueves el proyecto a otra carpeta o equipo, deberás cambiar las rutas absolutas a rutas relativas o volver a generar los archivos .py corregidos.
+
+Para evitar este problema en el futuro, considera usar rutas relativas o una configuración con variables de entorno.
+¡Muchas Gracias!
